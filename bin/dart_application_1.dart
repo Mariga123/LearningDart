@@ -95,5 +95,39 @@ void main() {
 
   print('Addition (double): $x + $y = $doubleAddition');
   print('Multiplication (double): $x * $y = $doubleMultiplication');
+
+  var age = 5;
+
+  if (age > 18) {
+    print("🗳️ Mariam can vote in Kenya!");
+  } else if (age == 18) {
+    print("🎉 Mariam is just old enough to vote in Kenya!");
+  } else {
+    print("👧 Mariam is still too young to vote.");
+  } 
+
+  int day = 2;
+
+  switch (day) {
+    case 1:
+      print("🌞 Monday: Let's code!");
+      break;
+    case 2:
+      print("🚀 Tuesday: Keep coding!");
+      break;
+    case 3:
+      print("🐪 Wednesday: Halfway through!");
+      break;
+    default:
+      print("🎉 Time for the weekend!");
+  }
+
+  var q = 45;  
+ var maxnum = 10;  
+do  
+    {                
+       print("The value is: ${q}");  
+       q = q+1;                                    
+       }while(a<maxnum);
 }
 // This program showcases the basics of Dart programming with fun comments and emojis!
