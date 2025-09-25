@@ -1,8 +1,4 @@
-import 'package:dart_application_1/dart_application_1.dart' as dart_application_1;
-
-// void main(List<String> arguments) {
-//   print('Hello world: ${dart_application_1.calculate()}!');
-// }
+// A simple Dart program demonstrating variables, data types, and basic operations
 void main() {
   // 🧙‍♂️ Integer code: Whole number magic
   int linesOfCodeWritten = 42;
@@ -37,10 +33,67 @@ void main() {
   } else {
     print("💡 Try a new language or project for more fun!");
   }
+ 
 
   if (lovesDebugging) {
     print("🐛 Debugging is like solving a puzzle!");
   } else {
     print("🚀 Focus on writing bug-free code!");
   }
+  // use square brackets for listing
+  List myList = [1, 2, 4, "Jackson"];
+  // adding value to the list
+
+  myList.add(67);
+  myList.remove("Jackson");
+  // remove value
+  // myList.remove(4);
+  print(myList);
+
+    // Creating a Map with String keys and int values
+  Map<String, int> ages = {
+    'Alice': 30,
+    'Bob': 25,
+    'Charlie': 35,
+  };
+  print("Ages of students: $ages"); 
+
+  // 🧙‍♀️ Summon emojis and symbols using runes
+  Runes magicRunes = Runes('\u2764\u1F60A\u1F680');  // ❤️😊🚀
+
+  // 🔮 Decoding the rune spell into a readable string
+  String castedMagic = String.fromCharCodes(magicRunes);
+  
+  // 🔮 Output the magic!
+  print("✨ Casting runes: $castedMagic");
+
+  // Declaring integer and double variables
+  int a = 10;
+  int b = 3;
+  double x = 5.5;
+  double y = 2.5;
+
+  // Performing arithmetic operations
+  int addition = a + b;            // Addition
+  int subtraction = a - b;         // Subtraction
+  int multiplication = a * b;      // Multiplication
+  double division = a / b;         // Division (returns a double)
+  int integerDivision = a ~/ b;    // Integer Division (returns an int)
+  int modulus = a % b;             // Modulus (remainder of division)
+
+  // Using double variables
+  double doubleAddition = x + y;
+  double doubleMultiplication = x * y;
+
+  // Printing results
+  print('Addition (int): $a + $b = $addition');
+  print('Subtraction (int): $a - $b = $subtraction');
+  print('Multiplication (int): $a * $b = $multiplication');
+  print('Division (double): $a / $b = $division');
+  print('Integer Division: $a ~/ $b = $integerDivision');
+  print('Modulus: $a % $b = $modulus');
+
+  print('Addition (double): $x + $y = $doubleAddition');
+  print('Multiplication (double): $x * $y = $doubleMultiplication');
 }
+// This program showcases the basics of Dart programming with fun comments and emojis!
