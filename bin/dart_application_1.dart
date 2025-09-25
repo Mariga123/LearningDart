@@ -20,10 +20,27 @@ void main() {
   print("⏳ Coding time: $codeTime hours fueled by coffee");
 
   // 🔮 Crafting string code
-  String coderName = "Ada Lovelace";
+  String coderName = "John Mariga";
   String favoriteLanguage = "Dart";
   String favoriteEmoji = "💻";
 
   // 🧙‍♀️ Combine strings using string interpolation (the power of `${}`!)
   print("👩‍💻 Hello, my name is $coderName, and I code in $favoriteLanguage $favoriteEmoji");
+
+  // 🌟 Boolean code: True or false logic
+  bool isCodingFun = true;
+  bool lovesDebugging = false;  // Debugging can be tricky!
+
+  // 🧑‍💻 Making decisions with booleans
+  if (isCodingFun) {
+    print("🎉 Coding is fun, keep going!");
+  } else {
+    print("💡 Try a new language or project for more fun!");
+  }
+
+  if (lovesDebugging) {
+    print("🐛 Debugging is like solving a puzzle!");
+  } else {
+    print("🚀 Focus on writing bug-free code!");
+  }
 }
